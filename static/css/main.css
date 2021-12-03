@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+body{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+}
+#header{
+    text-align: center;
+}
+#header h1{
+    color:brown;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;    
+    
+}
+.container{
+    margin-top:2rem;
+    padding-top: 2rem;
+    background-color: bisque;
+    width: 70vw;
+    padding-bottom:5vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 75, 92, 0.5);
+
+}
+input[type=text] {
+    border: 2px solid black;
+    border-bottom: 2px solid red;
+    text-align: center;
+    color: firebrick;
+
+  }
+.options:checked{
+    box-shadow: rgba(0, 0, 0, 0.117647) 0 0 .8vw 0, rgba(0, 0, 0, 0.239216) 0 .8vw .8vw 0;
+}
+.bookmovie{
+    background-color: black;
+    padding: 1rem;
+    width: 20rem;
+}
+.bookmovie1{
+    background-color: black;
+    padding: 1rem;
+    width: 20rem;
+}
+.bookmovie1:hover {
+    background: black;
+  }
+.bookmovie:hover{
+    background-color: white;
+    border-color:black;
+    color:darkred;
+    box-shadow: rgba(0, 0, 0, 0.117647) 0 0 .8vw 0, rgba(0, 0, 0, 0.239216) 0 .8vw .8vw 0;
+}
+.bookmovie.active{
+    background-color: rgb(0, 92, 112)!important;
+    border-color:#0083B0!important;
+}
+.poster{
+    height:20vh;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    color: red;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    color: navy;
+}
+footer h4{
+    color:black;
+    font-size:1.5rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px azure, 0 0 60px azure, 0 0 70px azure;
+}
+.mainsubmit {
+    background-color:coral;
+    width: 200px;
+    position: relative;
+    padding: 15px;
+    color:blanchedalmond;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    border-radius: 4px;
+    font-weight: 600;
+    overflow: hidden;
+    border: 2px solid burlywood;
+    text-decoration: none;
+  }
+  .mainsubmit:hover{
+    box-shadow: rgba(0, 0, 0, 0.117647) 0 0 .8vw 0, rgba(0, 0, 0, 0.239216) 0 .8vw .8vw 0;
+    color: blanchedalmond;
+    background-color:brown;
+  }

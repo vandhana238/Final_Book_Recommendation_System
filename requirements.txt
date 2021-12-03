@@ -1,0 +1,9 @@
+flask
+tqdm
+pandas
+re
+collections
+numpy
+requests
+csv
+PIL
